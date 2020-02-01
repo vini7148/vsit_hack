@@ -1,0 +1,23 @@
+.footer {
+    background-color: #eee;
+    padding-bottom: 1.5%;
+   margin-bottom: 0;    
+}
+
+footer h2 {
+    margin: 0;
+    padding: 60px 0 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+footer .address {
+    text-align: center;
+    font-size: 13px;
+    margin: 10px 0 20px;
+}
+footer .col-3 a{
+    text-decoration: none;
+    font-weight: 500;
+}

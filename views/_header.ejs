@@ -1,0 +1,67 @@
+ 
+
+
+<!--
+
+    <% if (locals.school) { %>
+        <li>
+            <%= school.name %>
+            
+        </li>
+        <li>
+            <a href= "/school/destroy-session" > Sign-out</a>
+        </li>
+    <% } else  { %>
+        <ul>
+            <li>
+                <a href= "/school/sign-in" >sign-in</a>
+            </li>
+            <li>
+                <a href = "/school/sign-up">sign-up</a>
+            </li>
+        </ul>
+        
+    <% } %> 
+    
+--> 
+
+
+
+    
+<nav class="navbar navbar-default navbar-fixed-top"> 
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+        <a href="/" class="navbar-brand">BRITESTORM</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-nav-demo">
+        <ul class="nav navbar-nav" >
+            <li><a href="/ranking/">Ranking</a></li>
+            <li><a href="/school/registered">Registered </a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <% if (locals.school) { %>
+                <li>
+                   <a href ="/school/profile/<%= school.id %>" ><%= school.name %></a>
+                </li>
+                <li>
+                    <a href= "/school/destroy-session" > Sign-out</a>
+                </li>
+            <% } else  { %>
+                
+                    <li>
+                        <a href= "/school/sign-in" >sign-in</a>
+                    </li>
+                    <li>
+                        <a href = "/school/sign-up">sign-up</a>
+                    </li>
+                
+                
+            <% } %> 
+        </ul>
+    </div>
+</nav>

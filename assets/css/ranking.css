@@ -1,0 +1,53 @@
+#top{
+    
+    font-weight:bold;
+    color:#000;
+    text-align:center;
+    
+}
+.container{
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+
+}
+
+table{
+    text-align :center;
+    border: 2px solid #eeeeee;
+    margin:0 0 0 0 ;
+    font-size: 20px;
+    display:inline-table;
+    border-radius: 20px;
+    
+}
+
+.t2{ text-align: center;
+     font-weight:100;
+     font-size:30px;
+    height: 50px;
+    width:800px;
+}
+#top{
+    font-size: 200px;
+    font-weight:600;
+}
+.t1{ text-align: center;
+    width: 300px;
+    font-weight:100;
+     font-size:30px;
+}
+
+
+tr:nth-of-type(even){
+    background:#baf7f6;
+}
+tr:nth-of-type(odd){
+    background:#cee69a;
+}
+
+.r1:hover{
+    width:120%;
+    display
+    
+}

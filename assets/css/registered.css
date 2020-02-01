@@ -1,0 +1,72 @@
+.tc1 {
+    text-align: center;
+    width: 600px;
+}
+
+.tc2 {
+    text-align: center;
+    width: 200px;
+}
+
+.tc3 {
+    width: 400px;
+    text-align: center;
+}
+
+.trow {
+    height: 50px;
+}
+
+table.paleBlueRows {
+    font-family: "Times New Roman", Times, serif;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.paleBlueRows td,
+table.paleBlueRows th {
+    border: 1px solid #FFFFFF;
+    padding: 3px 2px;
+}
+
+table.paleBlueRows tbody td {
+    font-size: 18px;
+}
+
+table.paleBlueRows tr:nth-child(even) {
+    background: #D0E4F5;
+}
+
+table.paleBlueRows tr:hover {
+    background: #bcdcf7;
+}
+
+table.paleBlueRows thead {
+    background: #0B6FA4;
+    border-bottom: 5px solid #FFFFFF;
+}
+
+table.paleBlueRows thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #FFFFFF;
+}
+
+table.paleBlueRows thead th:first-child {
+    border-left: none;
+}
+
+table.paleBlueRows tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    background: #D0E4F5;
+    border-top: 3px solid #444444;
+}
+
+table.paleBlueRows tfoot td {
+    font-size: 14px;
+}

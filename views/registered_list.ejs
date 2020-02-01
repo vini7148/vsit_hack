@@ -1,0 +1,27 @@
+
+<link href = "/css/registered.css" type= "text/css" rel="stylesheet">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+    <table class="paleBlueRows">
+        <tr class="trow">
+            <td class="tc1"><b>School's Name</b></td>
+            <td class="tc2"><b>Phone No.</b></td>
+            <td class="tc3"><b>Email ID</b></td>
+        </tr>
+        <% for (school of schools){ %>
+            
+            <tr class="trow">
+                <td class="tc1"><%=school.name %></td>
+                <td class="tc2"><%= school.phone%></td>
+                <td class="tc3"><%=school.email%></td>
+            </tr>
+
+        <% } %>
+
+    </table>
+</div>

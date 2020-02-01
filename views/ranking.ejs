@@ -1,0 +1,22 @@
+<link href="/css/ranking.css" rel= "stylesheet">
+
+
+<div class="container">
+    <div class="jumbotron"><h1 id="top">Ranks</h1></div>
+
+<table >
+    <tr class="r1">
+        <td class="t1">
+           <b>RANK</b> 
+        </td>
+        <td class="t2">
+            <b> SCHOOL NAME</b>
+        </td>
+    </tr>
+    <!-- <%  console.log(Object.keys(school["sc"]).length) %> -->
+        <% for(var i = 0;i < Object.keys(school["sc"]).length ; i++) {%>
+        <tr class="r1"><td class="t1"><%= i+1 %></td>
+          
+            <td class="t2"><%= school["sc"][String(i)]["5"]%></td></tr>
+   <% } %>
+</table></div>

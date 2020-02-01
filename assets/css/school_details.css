@@ -1,0 +1,42 @@
+form .form1 input {
+    padding-left: 16px;
+    width: 300px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+form .form1 {
+    margin: 2%;
+}
+
+.button1 input {
+    position: relative;
+    background-color: #fcf;
+    transition: 0.5s;
+    border-color: #fcf;
+}
+
+.button1 input:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button1:hover input {
+    padding-right: 25px;
+}
+
+.button1:hover input:after {
+    opacity: 1;
+    right: 0;
+}
+
+.info {
+    font-size: 20px;
+    line-height: 200%;
+    word-spacing: 120%;
+    font-family: 'Work Sans', sans-serif;
+}

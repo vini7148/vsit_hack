@@ -1,0 +1,47 @@
+.j1{
+	text-align: center;
+font-family: 'Bebas Neue', cursive;
+   font-weight:bold ;
+    font-size:100px;
+	background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtZnsRMmxjURCzMIpLGXCNy5rNocbVWdEhAdlG2-Yq7pXZPHcf);
+	background-size:cover;
+	background-repeat: no-repeat;
+	 letter-spacing: 2px;
+
+}
+
+.thumbnail:hover{
+	transform: scale(1.1);
+}
+
+.top{
+	
+	margin:20%;
+}
+.box{
+	height:400px;
+	background:#eeeeee;
+	margin:3%;
+	
+}
+area:hover{
+	background: #000000;
+}
+h4,#scname,#phoneno,#location{
+   text-align:center;
+   font-family: 'Bebas Neue', cursive;
+   font-weight:bold;
+   color:#4a594e;
+   font-size:20px;
+   letter-spacing: 2px;
+}
+h2{
+	
+	font-size:100px;
+	color:#78649e;
+	text-align:center;
+	font-family: 'Cabin', sans-serif;
+	}
+.zoomin{
+	background: #121212;
+}
